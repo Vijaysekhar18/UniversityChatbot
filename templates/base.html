@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="/static/images/BotImageU.png" height="40px" width="40px" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. I am Clarkie. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{url_for('static', filename = './images/chatbox-icon-red.png')}}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript" src= "{{url_for('static', filename ='app.js')}}"></script>
+    <!-- Code to close the server after we close the browser session -->
+    <script>
+        window.addEventListener('beforeunload', function (e) {
+            console.log('Sending shutdown request...');
+            fetch('/sendEmail', {
+                method: 'POST'
+            })
+            .then(response => {
+                console.log('Shutdown request sent:', response);
+            })
+            .catch(error => {
+                console.error('Error sending shutdown request:', error);
+            });
+        });
+        </script>
+    
+
+</body>
+</html>

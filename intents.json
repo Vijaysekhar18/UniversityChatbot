@@ -1,0 +1,774 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey there",
+        "Howdy",
+        "What's up?",
+        "What's happening?",
+        "Greetings",
+        "Good morning"
+      ],
+      "responses": [
+        "Hey Clarkie",
+        "Hi Clarkie, what can I do for you?",
+        "Hi Clarkie, how can I help?",
+        "Hello Clarkie, Feel free to ask me anything about Clark University.",
+        "Hi Clarkie, Good day!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Farewell", "Until next time", "Take care","Bye","Thank you"],
+      "responses": [
+        "See you later, thanks for visiting Clark University Chatbot",
+        "Have a nice day , thanks for visiting Clark University Chatbot",
+        "Bye! Come back again soon, thanks for visiting Clark University Chatbot.",
+        "Take care!, thanks for visiting Clark University Chatbot"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Much obliged", "Appreciate it"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },    
+    {
+      "tag": "about_clark_university",
+      "patterns": [
+        "What majors does Clark University offer?",
+        "Can you tell me about the majors at Clark University?",
+        "What are the academic programs at Clark University?",
+        "What kind of majors are available at Clark University?"
+      ],
+      "responses": [
+        "At Clark University, you can choose from a variety of majors such as Computer Science, Sociology, History, and many others.",
+        "Clark University offers a wide range of majors including Computer Science, Biology, Psychology, Economics, and more. You can find the full list on their website.",
+        "The academic programs at Clark University are diverse and include majors like Computer Science, Environmental Science, International Development, and Management.",
+        "Majors at Clark University vary and cover areas like Physics, Chemistry, Mathematics, and many more."
+      ]
+    },
+    {
+      "tag": "apply_to_clark_university",
+      "patterns": [
+        "How can I apply to Clark University?",
+        "What is the application process for Clark University?",
+        "Can you guide me through the application to Clark University?"
+      ],
+      "responses": [
+        "To apply to Clark University, you can visit their official website and complete the online application form. Make sure to submit all required documents and pay the application fee.",
+        "The application process for Clark University involves filling out an online application form, submitting transcripts, letters of recommendation, and a personal statement.",
+        "Applying to Clark University is a straightforward process that includes filling out an online application, submitting transcripts, and providing letters of recommendation."
+      ]
+    },
+    {
+      "tag": "tuition_cost",
+      "patterns": [
+        "What is the tuition cost at Clark University?",
+        "Can you tell me about the tuition fees at Clark University?",
+        "How much does it cost to study at Clark University?"
+      ],
+      "responses": [
+        "The tuition cost at Clark University varies depending on the program and whether you are an in-state or out-of-state student. You can find detailed information on their website.",
+        "Tuition fees at Clark University can vary based on the program and student status. It's best to check their website for the most up-to-date information.",
+        "To get an accurate estimate of tuition costs at Clark University, you should visit their website or contact the admissions office."
+      ]
+    },
+    {
+      "tag": "campus_life",
+      "patterns": [
+        "Can you tell me about the campus life at Clark University?",
+        "What is it like to live on campus at Clark University?",
+        "How is the student life at Clark University?"
+      ],
+      "responses": [
+        "Campus life at Clark University is vibrant and diverse, with many clubs, organizations, and events to participate in. The university also offers various facilities such as libraries, sports facilities, and student centers.",
+        "Living on campus at Clark University offers a unique experience with a close-knit community and easy access to campus facilities. Students can participate in various activities and events organized by the university.",
+        "Student life at Clark University is enriched by a variety of cultural, social, and recreational activities. The university encourages students to engage in campus life and offers support services to enhance their experience."
+      ]
+    },
+    {
+      "tag": "campus_tour",
+      "patterns": [
+        "How can I schedule a campus tour of Clark University?",
+        "Can you help me book a campus tour of Clark University?",
+        "When are the campus tours available at Clark University?"
+      ],
+      "responses": [
+        "To schedule a campus tour of Clark University, you can visit their official website and fill out the campus tour request form. Alternatively, you can contact the admissions office for assistance.",
+        "Campus tours at Clark University can be scheduled by filling out the online request form on their website. You can also contact the admissions office directly to schedule a tour.",
+        "Campus tours at Clark University are typically available throughout the year. It's best to check the university's website for the latest tour schedule and availability."
+      ]
+    },
+    {
+      "tag": "housing_options",
+      "patterns": [
+        "What are the housing options for students at Clark University?",
+        "Can you tell me about the housing facilities at Clark University?",
+        "How does housing work at Clark University?"
+      ],
+      "responses": [
+        "Clark University offers various housing options for students, including residence halls and apartment-style living. You can choose from single, double, or suite-style accommodations.",
+        "Housing facilities at Clark University include residence halls with amenities such as common lounges, study areas, and laundry facilities. Some halls also offer special interest housing options.",
+        "Housing at Clark University is assigned on a first-come, first-served basis. Students can apply for housing through the university's housing portal and select their preferences for roommates and housing options."
+      ]
+    },
+    
+    {
+      "tag": "support_services",
+      "patterns": [
+        "What support services does Clark University offer for students?",
+        "Can you tell me about the student support services at Clark University?",
+        "How does Clark University support its students?"
+      ],
+      "responses": [
+        "Clark University offers a variety of support services for students, including academic advising, career counseling, health services, and more. These services are designed to help students succeed academically and personally.",
+        "Student support services at Clark University include academic tutoring, counseling services, disability services, and more. These services are available to all students and are designed to support their academic and personal development."
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": [
+        "What documents do international students need to submit for admission to Clark University?",
+        "What are the admission requirements for international students at Clark University?",
+    "Can you provide information about the admission requirements for international students at Clark University?",
+    "How can international students apply to Clark University?",
+        "Can you list the requirements for international student admission at Clark University?",
+        "Which materials are necessary for international students to apply to Clark University?",
+        "What is required from international applicants for admission to Clark University?",
+        "Are there specific criteria for international students applying to Clark University?",
+        "How do international students fulfill admission requirements at Clark University?",
+        "What steps should international applicants take to apply to Clark University?",
+        "Are there any additional prerequisites for international students applying to Clark University?"
+    ],
+    "responses": [
+        "International students interested in Clark University must meet certain admission requirements, including submitting transcripts, English proficiency test scores, and a statement of purpose.",
+        "Admission requirements for international students at Clark University include submitting academic transcripts, English language proficiency scores, and a statement of purpose. It's also important to meet the application deadlines."
+    ]
+    
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Which types of scholarships does Clark University offer to students?",
+        "Can you provide information about scholarships available at Clark University?",
+    "What scholarships are available at Clark University?",
+    "How can I apply for scholarships at Clark University?",
+        "Can you list the different categories of scholarships available at Clark University?",
+        "What kinds of financial aid opportunities are available for students at Clark University?",
+        "Are there any specific scholarships for students pursuing certain majors at Clark University?",
+        "How does Clark University support students financially through scholarships?",
+        "Where can I find details about scholarships for underrepresented students at Clark University?",
+        "What is the process for applying to scholarships at Clark University?",
+        "Are there any deadlines for applying to scholarships at Clark University?",
+        "Do international students qualify for scholarships at Clark University?"
+    ],
+    "responses": [
+        "Clark University offers several scholarships for eligible students, including merit-based scholarships, need-based scholarships, and scholarships for specific majors or programs.",
+        "Scholarships available at Clark University include merit-based scholarships, need-based scholarships, and scholarships for underrepresented students. You can find more information on their website."
+    ]
+    
+    },
+    {
+      "tag": "sports_activities",
+      "patterns": [
+        "Which sports teams are available for students at Clark University?",
+        "What sports and extracurricular activities are available at Clark University?",
+    "Can you tell me about the sports and activities at Clark University?",
+    "How can I get involved in sports at Clark University?",
+        "Can you list some of the specific extracurricular activities offered at Clark University?",
+        "Are there any unique or specialized sports programs at Clark University?",
+        "What are the options for community service involvement at Clark University?",
+        "How diverse are the extracurricular activities at Clark University?",
+        "Where can I find information about joining clubs and organizations at Clark University?",
+        "What are the benefits of participating in sports and activities at Clark University?",
+        "Do students need to have prior experience to join sports teams at Clark University?",
+        "Are there any leadership opportunities available within the sports and extracurricular activities at Clark University?"
+    ],
+    "responses": [
+        "There are numerous sports teams and extracurricular activities at Clark University, including basketball, soccer, volleyball, and more.",
+        "Sports and extracurricular activities at Clark University include a wide range of options for students to participate in. Whether you're interested in sports, arts, or community service, there's something for everyone.",
+        "To get involved in sports at Clark University, you can join one of the university's sports teams or participate in intramural sports. The university also offers fitness classes and recreational activities."
+    ]
+    
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Can you provide a list of graduate-level courses offered at Clark University?",
+        "What are the courses that Clark offers?",
+    "What are the subjects for Clark?",
+        "What are some of the specific course titles available for graduate students at Clark University?",
+        "Are there any specialized courses or programs available in the field of healthcare administration?",
+        "How diverse are the course offerings at Clark University?",
+        "Where can I find detailed descriptions of the courses offered at Clark University?",
+        "Are there any unique or interdisciplinary courses available at Clark University?",
+        "Can you elaborate on the capstone projects offered in graduate programs at Clark University?",
+        "What are the prerequisites for enrolling in graduate-level courses at Clark University?",
+        "Are there any opportunities for independent research or projects within the course curriculum at Clark University?",
+        "Do the course offerings at Clark University vary by semester or academic year?"
+    ],
+    "responses": [
+        "GRAD INDEPENDENT RES PROJ I, GRAD IND STUDIO PROJ II, GRAD INDEPENDENT RES PROJ II, GRAD IND STUDIO PROJ III, GRAD INDEPENDENT RES PROJ III, HEALTH CARE ADMINISTRATION, CULTURAL COMPETENCE, CULTURAL COMPETENCE, SOCIAL AWARENESS ENTREP & BUS, ISSUES & CASES IN PUBLIC ADMIN, ORGANIZA BEHAVIOR & LEADERSHIP, ORGANIZA BEHAVIOR & LEADERSHIP, ORGANIZA BEHAVIOR & LEADERSHIP, CHANGE MANAGEMENT, SELF AS AGENT OF CHANGE, ETHICS AND PROFESSIONAL LIFE, POLICY ANALYSIS, LABOR RELAT & COLL BARGAINING, LABOR RELAT & COLL BARGAINING, RESEARCH METHODS & STRATEGIES, CAPSTONE PRACTICUM, VISUAL COMMUNICATION DESIGN, MARKETING & COMM STRATEGIES, BRAND JOURNALISM, EFFECTIVE COMMUNICATION, DIGITAL CITIZENSHIP, MULTI CHANNEL COMMUNICATIONS, CAPSTONE PRACTICUM, HUMAN COMPUTER INTERACTION, USABILITY ENGINEERING, SOCIAL INFORMATICS, APPLIED DATA ANALYTICS, SOFTWARE ENGINEERING, SOFTWARE ENGINEERING, DESIGN & ANALYSIS ALGORITHMS, DESIGN & ANALYSIS ALGORITHMS, DESIGN & ANALYSIS ALGORITHMS, SURVEY OF SYS & PROGRAMG LANG, SOFTWARE DESIGN/ARCHITECTURE, ADV DATA INTELLIGENCE CONCEPTS, CAPSTONE, FUNDAMENTALS DATA ENGINEERING, FUNDAMENTALS DATA ENGINEERING, FUNDAMENTALS DATA ENGINEERING, FUNDAMENTALS DATA ENGINEERING, FUNDAMENTALS DATA ENGINEERING. You can get more details about courses at https://apps.clarku.edu/course-listings/registrar-SPS-grad-spring,24?_gl=1*y419a*_gcl_au*MTQ2NDk0ODU3LjE3MTI0MjUzNzg."
+    ]
+    
+    },
+    {
+      "tag": "professors",
+      "patterns": [
+        "Can you provide information about the faculty members in the Computer Science department at Clark University?",
+        "Which professors teach Computer Science at Clark University?",
+    "Tell me the list of professors who teach Computer Science?",
+    "Who teaches Computer Science in Clark University?",
+        "Are there any renowned professors teaching Computer Science courses at Clark University?",
+        "Who are the experts leading the Computer Science program at Clark University?",
+        "What is the faculty-to-student ratio like in the Computer Science department at Clark University?",
+        "Are there any specific research areas or expertise among the Computer Science faculty at Clark University?",
+        "How can I get in touch with professors in the Computer Science department at Clark University?",
+        "Are there any adjunct professors or visiting scholars contributing to the Computer Science curriculum at Clark University?",
+        "Can you recommend any resources to learn more about the academic backgrounds of Computer Science faculty at Clark University?",
+        "What are some of the recent achievements or publications by the Computer Science faculty members at Clark University?",
+        "Are there any student testimonials or reviews about the Computer Science professors at Clark University?"
+    ],
+    "responses": [
+        "For professor-related details, please visit 🤩 https://apps.clarku.edu/course-listings/registrar-SPS-grad-spring,24?_gl=1*y419a*_gcl_au*MTQ2NDk0ODU3LjE3MTI0MjUzNzg."
+    ]
+    
+    },
+      {
+      "tag": "SPSCourses",
+      "patterns": [
+        "Can you list the graduate programs available within the School of Professional Studies at Clark University?",
+        "What are the majors that come under SPS?",
+    "What are the SPS majors offered by Clark University?",
+        "What graduate degrees can I pursue under the School of Professional Studies (SPS) at Clark University?",
+        "Are there any specialized graduate programs offered by Clark University's School of Professional Studies?",
+        "What are the areas of study covered by the School of Professional Studies (SPS) at Clark University?",
+        "Which fields of study are encompassed by the School of Professional Studies (SPS) at Clark University?",
+        "Are there any interdisciplinary programs available within Clark University's School of Professional Studies?",
+        "How does Clark University's School of Professional Studies differentiate its graduate programs from other institutions?",
+        "Can you provide details about the curriculum structure for graduate programs offered by Clark University's School of Professional Studies?",
+        "Are there any unique features or concentrations available in the graduate programs offered by the School of Professional Studies at Clark University?",
+        "Do the graduate programs within the School of Professional Studies at Clark University offer any experiential learning opportunities or internships?"
+    ],
+    "responses": [
+        "The majors offered by Clark University are Master's in Communication, Master's in Computer Science, Master's in Data Analytics, Master's in Information Technology, Master's in Project Management, Master's in Sports and Esports Administration, Master of Fine Arts in Visual Arts, Master of Public Administration, Master of Public Admin. Senior Leadership"
+    ]
+    
+    },
+        {
+      "tag": "PMCourses",
+      "patterns": [
+        "Could you provide a list of the required courses for students pursuing Project Management at Clark University?",
+        "What courses must students take as part of the Project Management program curriculum?",
+        "What are the mandatory courses for Project Management?",
+    "What are the core subjects for Project Management?",
+        "Are there any specific classes that students enrolled in the Project Management program need to complete?",
+        "What is the course structure like for Project Management students at Clark University?",
+        "Which courses are considered essential for students specializing in Project Management?",
+        "Are there any foundational subjects that Project Management students are required to study?",
+        "Can you outline the key components of the Project Management curriculum, including mandatory courses?",
+        "What are the fundamental topics covered in the Project Management program at Clark University?",
+        "Do Project Management students need to complete any specific coursework to fulfill degree requirements?",
+        "Are there any prerequisites for the core courses in the Project Management program?"
+    ],
+    "responses": [
+        "IT Project Management Fundamentals, Agile Software Development Methodology, Organizational Behavior & Leadership, IT Economics, Finances and Budgeting, Risk, Quality and Change Management, Program and Portfolio Management, Managing Troubled Projects are the mandatory courses",
+        "Core Subjects are IT Project Management Fundamentals, Agile Software Development Methodology, Organizational Behavior & Leadership, IT Economics, Finances and Budgeting, Risk, Quality and Change Management, Program and Portfolio Management, Managing Troubled Projects"
+    ]
+    
+    },
+      {
+      "tag": "PMElectives",
+      "patterns": [
+        "Could you provide a list of optional courses available for students specializing in Project Management?",
+        "What are the elective courses for Project Management?",
+        "What are the elective subjects for Project Management?",
+        "What elective options are offered within the Project Management program at Clark University?",
+        "Are there any courses that Project Management students can choose based on their interests?",
+        "What are some examples of elective subjects that Project Management students can select from?",
+        "Which courses fall under the elective category for students pursuing Project Management?",
+        "Can you outline the elective course offerings for Project Management students?",
+        "Are there any specific areas of study that Project Management students can explore through elective courses?",
+        "Do students have the flexibility to choose their elective subjects within the Project Management curriculum?",
+        "What opportunities do Project Management students have to customize their course of study through electives?",
+        "Are there any prerequisites for enrolling in elective courses related to Project Management?"
+    ],
+    "responses": [
+        "Information Systems Analysis and Design, Cyber Security Fundamentals, IT Strategy Leadership, Lean Practices and Organizational Change, Business Intelligence, Experiential Learning, Independent Study, Capstone Practicum are the courses which you can consider as electives",
+        "Elective Subjects for Project Management are Information Systems Analysis and Design, Cyber Security Fundamentals, IT Strategy Leadership, Lean Practices and Organizational Change, Business Intelligence, Experiential Learning, Independent Study, Capstone Practicum"
+    ]
+    
+    },
+    {
+      "tag": "CScourses",
+      "patterns": [
+        "What are the mandatory courses for Computer science?",
+        "What are the mandatory courses for Computer science?",
+    "What are the core subjects for Computer science?",
+        "What are the core subjects for Computer science?",
+        "What are the mandatory courses for Computer science?",
+        "What are the core subjects for Computer science?",
+        "Could you list the essential courses required for students majoring in Computer Science?",
+        "What foundational subjects are part of the Computer Science curriculum?",
+        "Are there any compulsory classes that Computer Science students must take?",
+        "Can you provide an overview of the key courses offered within the Computer Science program?",
+        "Which subjects are considered fundamental for students studying Computer Science?",
+        "What are the key components of the Computer Science curriculum?",
+        "Are there specific courses that all Computer Science students are required to complete?",
+        "Do Computer Science students have core courses that they must fulfill as part of their degree?",
+        "What are the fundamental topics covered in the Computer Science major?",
+        "Are there any prerequisites for enrolling in core courses for Computer Science?",
+        "What courses are necessary for students pursuing a degree in Computer Science?",
+        "Which classes are mandatory for those majoring in Computer Science?",
+        "Could you outline the primary courses that students studying Computer Science need to take?",
+        "Are there any core subjects that Computer Science students cannot opt out of?"
+    ],
+    "responses": [
+        "DESIGN & ANALYSIS ALGORITHMS, Software Engineering, SURVEY OF SYS & PROGRAMG LANG are the mandatory courses",
+        "Core Subjects are DESIGN & ANALYSIS ALGORITHMS, Software Engineering, SURVEY OF SYS & PROGRAMG LANG"
+    ] 
+    },
+       {
+      "tag": "CSElectives",
+      "patterns": [
+        "What are the Elective courses for Computer science?",
+        "What are the elective subjects can be considered for Computer science?",
+        "Could you provide a list of elective courses available for students majoring in Computer Science?",
+        "Which courses are optional for students pursuing a degree in Computer Science?",
+        "What are the elective options for students in the Computer Science program?",
+        "Are there any elective classes that Computer Science students can choose from?",
+        "Can you list the courses that Computer Science students can choose as electives?",
+        "What subjects can Computer Science students select as electives?",
+        "Do Computer Science students have the flexibility to choose elective courses?",
+        "Are there any recommended elective courses for students studying Computer Science?",
+        "Which elective subjects are available within the Computer Science curriculum?",
+        "What are some of the elective courses offered to Computer Science students?",
+        "Are there any specialized courses that Computer Science students can choose from?",
+        "Could you outline the elective options for students majoring in Computer Science?",
+        "What elective courses are available for Computer Science majors?",
+        "Are there specific areas of focus within the elective courses for Computer Science?"
+    ],
+    "responses": [
+        "Applied Data Analytics, Fundamentals of Data Engineering, Applied Machine Learning, Advanced Data Intelligence Concepts, Data Visualization and Story Telling, Human Computer Interaction, Usability Engineering, Social Informatics, Software Design and Architecture, Software Project Management, Software Quality Assurance and Testing, Advanced Software Engineering Concepts, Cyber Security Fundamentals, Network Architecture and Design, Fundamentals of Data Engineering, Applied Machine Learning are the elective courses ",
+        "Elective Subjects are Applied Data Analytics, Fundamentals of Data Engineering, Applied Machine Learning, Advanced Data Intelligence Concepts, Data Visualization and Story Telling, Human Computer Interaction, Usability Engineering, Social Informatics, Software Design and Architecture, Software Project Management, Software Quality Assurance and Testing, Advanced Software Engineering Concepts, Cyber Security Fundamentals, Network Architecture and Design, Fundamentals of Data Engineering, Applied Machine Learning "
+    ]
+    
+    },
+        {
+      "tag": "ITcourses",
+      "patterns": [
+        "What are the mandatory courses for Information Technology?",
+        "What are the core subjects for Information Technology?",
+        "Can you provide a list of required courses for the Information Technology program?",
+        "Which courses are essential for students pursuing a degree in Information Technology?",
+        "What are the fundamental classes for Information Technology students?",
+        "Are there any compulsory subjects that Information Technology students must take?",
+        "Could you list the courses that Information Technology students are required to complete?",
+        "What subjects are considered fundamental to the Information Technology curriculum?",
+        "Do Information Technology students have to take specific core courses?",
+        "Are there any prerequisites that Information Technology students need to fulfill?",
+        "Which core courses are part of the Information Technology program?",
+        "What are the key courses that Information Technology students need to complete?",
+        "Are there any foundational classes that Information Technology students need to enroll in?",
+        "Could you outline the core curriculum for Information Technology students?",
+        "What are the essential subjects included in the Information Technology degree?"
+    ],
+    "responses": [
+        "Information Systems Analysis and Design, Cyber Security Fundamentals, Network Architecture and Design, IT Strategy Leadership are the mandatory courses",
+        "Core Subjects are Information Systems Analysis and Design, Cyber Security Fundamentals, Network Architecture and Design, IT Strategy Leadership"
+    ]
+    
+    },
+         {
+      "tag": "ITElectives",
+      "patterns": [
+        "What are the elective courses for Information Technology?",
+        "What are the elective subjects for Information Technology?",
+        "Could you provide a list of optional courses for Information Technology students?",
+        "What elective options are available within the Information Technology program?",
+        "Are there any additional courses that Information Technology students can choose from?",
+        "Can you list the elective subjects that Information Technology students can take?",
+        "Which courses can Information Technology students select as electives?",
+        "What are the choices for elective courses in the Information Technology curriculum?",
+        "Are there any specialized classes that Information Technology students can opt for?",
+        "Do Information Technology students have the flexibility to choose elective subjects?",
+        "Could you outline the elective offerings for Information Technology students?",
+        "What are the elective possibilities for students enrolled in Information Technology?",
+        "Are there any alternative courses available for Information Technology students?",
+        "What elective subjects are included in the Information Technology degree program?",
+        "Do Information Technology students have the option to select elective courses?"
+    ],
+    "responses": [
+        "Blockchain Technology Risk Management, Security Architecture and Design, Data Mining With Splunk, Cyber Security Ethics: Technology, Society and Government, Introduction to Incident Response and Digital Forensics, Cyber Security Warfare and Risk Management, Advanced Topics: Cyber Security (Capstone), Special Topics: Information Technology are the elective courses",
+        "Elective Subjects are Blockchain Technology Risk Management, Security Architecture and Design, Data Mining With Splunk, Cyber Security Ethics: Technology, Society and Government, Introduction to Incident Response and Digital Forensics, Cyber Security Warfare and Risk Management, Advanced Topics: Cyber Security (Capstone), Special Topics: Information Technology"
+    ]
+    
+    },
+   
+        {
+      "tag": "DACourses",
+      "patterns": [
+        "What are the mandatory courses for Data Analytics?",
+        "What are the core subjects for Information Technology?",
+        "Could you list the essential classes for Data Analytics?",
+        "What are the fundamental subjects covered in the Information Technology curriculum?",
+        "Can you provide an overview of the required courses for Data Analytics?",
+        "What are the key topics included in the Information Technology core courses?",
+        "Are there any compulsory classes that Data Analytics students need to take?",
+        "Could you outline the core subjects for Data Analytics?",
+        "What courses are considered necessary for students studying Data Analytics?",
+        "Do you have information about the core curriculum for Information Technology?",
+        "What are the must-have courses for Data Analytics?",
+        "Can you list the primary subjects for Information Technology students?",
+        "Are there any core classes that Data Analytics students must complete?",
+        "What topics are covered in the core curriculum for Data Analytics?",
+        "Do you have a list of required courses for Information Technology?"
+    ],
+    "responses": [
+        "Mathematical Statistics, Linear Regression and Time Series, Python Programming, Data Management for Information Technology, Fundamentals of Data Engineering, Data Mining With Splunk, Applied Machine Learning, Data Visualization and Story Telling are the mandatory courses",
+        "Core Subjects are Mathematical Statistics, Linear Regression and Time Series, Python Programming, Data Management for Information Technology, Fundamentals of Data Engineering, Data Mining With Splunk, Applied Machine Learning, Data Visualization and Story Telling"
+    ]
+    
+    },
+          {
+      "tag": "DAElectives",
+      "patterns": [
+        "What are the elective courses for Data Analytics?",
+        "What are the elective subjects for Information Technology?",
+        "Could you provide information about the optional courses available for Data Analytics?",
+        "Can you list the elective subjects offered in Information Technology?",
+        "What elective classes does the Data Analytics program offer?",
+        "Are there any elective courses for Information Technology students?",
+        "Can you give me details about the elective subjects for Data Analytics?",
+        "What options are there for elective courses in Information Technology?",
+        "Do you have information about the elective offerings for Data Analytics?",
+        "Could you outline the elective courses available in Information Technology?",
+        "Are there any optional subjects in the Data Analytics curriculum?",
+        "What elective subjects can Information Technology students choose from?",
+        "Do you have a list of elective courses for Data Analytics?",
+        "What are the choices for elective subjects in Information Technology?",
+        "Can you tell me about the elective courses for Data Analytics?"
+    ],
+    "responses": [
+        "Research and Marketing Analytics, IoT: Securing Communication Technologies through Data Analysis, Applied Deep Learning, Health Data and Record Systems, Special Topics: Data Analytics, Health Informatics, Independent Study (To be approved by advisor for topics like Sentiment Analysis, AI, Text Recognition, etc.), Capstone Practicum are the elective courses",
+        "Elective Subjects are Research and Marketing Analytics, IoT: Securing Communication Technologies through Data Analysis, Applied Deep Learning, Health Data and Record Systems, Special Topics: Data Analytics, Health Informatics, Independent Study (To be approved by advisor for topics like Sentiment Analysis, AI, Text Recognition, etc.), Capstone Practicum"
+    ]
+    
+    },
+       
+    {
+      "tag": "GradPrograms",
+      "patterns": [
+        "Give me the links related to Grad Admissions?",
+        "Where can I inquire about Grad Admissions?",
+        "Where can I apply for Grad Admissions?",
+        "What is the website for Graduate Admissions Inquiry?",
+        "Where can I find information about applying to graduate programs?",
+        "How can I get more details about graduate admissions?",
+        "Can you provide the link for Graduate Admissions Inquiry?",
+        "I'm interested in applying to graduate school. How can I find more information?",
+        "What are the steps to apply for graduate admissions?",
+        "Could you direct me to the page for applying to graduate programs?",
+        "Where should I go to inquire about admission to graduate programs?",
+        "How do I start the application process for graduate admissions?",
+        "Do you have a link for applying to graduate programs?",
+        "Where can I find the application portal for graduate admissions?",
+        "What's the website for graduate school applications?"
+    ],
+    "responses": [
+        "Inquire: [Graduate Admissions Inquiry](https://www.clarku.edu/graduate-education/request-info/?ga)",
+        "Apply: [Graduate Admissions Application](https://gradapply.clarku.edu/apply/?_gl=1*13hqkhx*_gcl_au*NTE4MzI0MTAuMTcwODQ4MzE1Mg..*_ga*MTExMzYxNDAzMi4xNzA4NDgzMTUy*_ga_8T1G50QTBE*MTcxMDE5NzEzMC4yLjEuMTcxMDE5NzE0NC40Ni4wLjM1MDc5NTI0NA..)"
+    ]
+    
+    },
+      {
+      "tag": "MastersRequirement",
+      "patterns": [
+        "What are the requirements for completing a master's degree at Clark University?",
+        "How many credits do I need to graduate from Clark University with a master's degree?",
+        "What is the total number of units required to earn a master's degree from Clark University?",
+        "What are the graduation requirements for a master's degree at Clark University?",
+        "How many courses do I need to take to earn a master's degree from Clark University?",
+        "What is the minimum number of courses required to complete a master's degree at Clark University?",
+        "What is the total credit requirement for completing a master's degree at Clark University?",
+        "How many units do I need to accumulate to graduate from Clark University with a master's degree?",
+        "Can you tell me the criteria for completing a master's program at Clark University?",
+        "What are the conditions for graduating from a master's program at Clark University?",
+        "What are the steps to complete a master's degree at Clark University?",
+        "Are there any specific requirements for earning a master's degree from Clark University?",
+        "Do you have information on the requirements for obtaining a master's degree from Clark University?",
+        "What does it take to graduate with a master's degree from Clark University?"
+    ],
+    "responses": [
+        "To earn a master's degree at Clark University, students must complete a minimum of 10 courses, with each course worth one unit credit, for a total of 10 units."
+    ]
+    
+    },
+      {
+      "tag": "StemOpt",
+      "patterns": [
+        "Does Clark University offer STEM OPT for international students?",
+        "Can international students at Clark University apply for STEM OPT?",
+        "Is there STEM OPT available for international students studying at Clark University?",
+        "What are the opportunities for STEM OPT at Clark University?",
+        "Are international students eligible for STEM OPT at Clark University?",
+        "Is STEM OPT an option for international students enrolled at Clark University?"
+    ],
+    "responses": [
+        "Yes, STEM OPT (Optional Practical Training) is available for international students."
+    ]
+    
+    },
+       {
+      "tag": "FinancialAssistanceGrad",
+      "patterns": [
+        "What financial aid options are offered to graduate students at Clark University?",
+        "How can graduate students at Clark University receive financial support?",
+        "Are there scholarships available for graduate students at Clark University?",
+        "What are the funding opportunities for graduate students at Clark University?",
+        "Can graduate students at Clark University apply for grants or scholarships?",
+        "What are the options for financial assistance for graduate students at Clark University?",
+        "How do graduate students at Clark University finance their education?",
+        "What types of financial aid are available for graduate students at Clark University?",
+        "Are there any financial aid programs specifically for graduate students at Clark University?"
+    ],
+    "responses": [
+        "Graduate students at Clark University can apply for two types of assistance: merit-based scholarships, grants, and tuition waivers awarded by their department based on the admission application and supplemental information provided, and student loans. Scholarships can cover full or partial tuition, while loans must be repaid, typically after graduation. Eligibility for loans requires acceptance into a degree program and at least half-time enrollment."
+    ]
+    
+    },
+   {       "tag": "ApplyFinancialAssistanceGrad",
+   "patterns": [
+    "Which form should I fill out to apply for need-based financial assistance?",
+    "What is the application process for need-based financial assistance?",
+    "Where can I find the necessary forms for need-based financial assistance?",
+    "What is the FAFSA and how does it relate to applying for financial aid?",
+    "Can you provide more details about the FAFSA and its importance for financial aid?",
+    "Are there any other forms required besides the FAFSA for need-based financial assistance?"
+],
+"responses": [
+    "All applicants must complete the FAFSA (Free Application for Student Financial Aid) which can be completed https://studentaid.gov/h/apply-for-aid/. Please note that our Title IV code number is 002139. In addition to the FAFSA "
+]
+
+    },
+       {       "tag": "DeadlineFinancialAid",
+       "patterns": [
+        "When is the deadline to submit the financial aid application?",
+        "What are the financial aid application deadlines for different start dates?",
+        "Can you provide more information about the financial aid priority deadlines?",
+        "Are there any consequences for missing the financial aid application deadlines?",
+        "Is it possible to request an extension for the financial aid application deadline?"
+    ],
+    "responses": [
+        "If you plan on starting your program during the summer, our priority deadline is May 1st. If you plan on starting in the fall semester, our priority deadline is June 1st. If you plan on starting in the spring, our priority deadline is December 1st. It is very important for you to meet these deadlines if you plan to use any financial aid funds to pay your student account."
+    ]
+    
+    },
+       {       "tag": "Fees",
+       "patterns": [
+        "How is the cost of attendance determined for graduate students?",
+        "Can you explain the factors that contribute to the estimated cost of attendance?",
+        "Where can I find detailed information about the cost of attendance for my graduate program?",
+        "Are there any financial aid options available to offset the cost of attendance?",
+        "Is the cost of attendance consistent across all graduate programs?"
+    ],
+    "responses": [
+        "Cost of attendance is based on the number of units a student takes each semester. For a complete breakdown of the costs for your particular graduate program, please contact your department."
+    ]
+    
+    },
+      {       "tag": "FinancialAidInternationStudents",
+      "patterns": [
+        "Are international students eligible for financial assistance at Clark University?",
+        "What options are available for financial assistance for international students?",
+        "Can international students apply for federal financial aid?",
+        "Is there a specific process for international students to apply for financial assistance?",
+        "Are there alternative financial aid options for international students?"
+    ],
+    "responses": [
+        "Clark University does not offer financial assistance directly to international students. International students are not eligible for federal financial aid, unless the student is an eligible non-citizen as defined by federal regulations. International students may apply for an alternative loan; however, a U.S. Citizen is required to co-sign the loan."
+    ]
+    
+    },
+        {       "tag": "FinancialAidInternationStudents",
+        "patterns": [
+          "What financial assistance options are available for international students at Clark University?",
+          "Are there any scholarships or grants available for international students at Clark University?",
+          "Can international students receive financial aid through federal programs at Clark University?",
+          "What are the alternative loan options for international students at Clark University?",
+          "Is there a specific process for international students to apply for financial assistance at Clark University?"
+      ],
+      "responses": [
+          "Clark University does not offer financial assistance directly to international students. International students are not eligible for federal financial aid, unless the student is an eligible non-citizen as defined by federal regulations. International students may apply for an alternative loan; however, a U.S. Citizen is required to co-sign the loan."
+      ]
+      
+    },
+    {       "tag": "MastersRequirement",
+    "patterns": [
+      "What are the admission requirements for Master's programs at Clark University?",
+      "Can you provide information about the criteria for admission into Master's programs at Clark University?",
+      "Where can I find the eligibility criteria for applying to Master's programs at Clark University?"
+  ],
+  "responses": [
+      "Click here to learn more about Clark’s Master’s program applications: https://www.clarku.edu/graduate-education/admissions/how-to-apply-graduate-admissions-requirements/"
+  ]
+  
+    },
+    {       "tag": "deadline",
+    "patterns": [
+      "When are the application deadlines for Clark University?",
+      "Can you provide information about the application deadlines for Clark University?",
+      "Where can I find the key dates for applying to Clark University?"
+  ],
+  "responses": [
+      "Click here to see a full calendar of application deadlines : https://www.clarku.edu/graduate-education/admissions/application-deadlines/."
+  ]
+  
+  },
+  {       "tag": "resources/supprot services",
+  "patterns": [
+    "Where can graduate students find career support services at Clark University?",
+    "Can you provide information about the career resources for graduate students at Clark University?"
+],
+"responses": [
+    "Clark creates a space for students to improve in the present, so they are better equipped for the future. To learn more about our career services, click one of the links below : https://www.clarku.edu/offices/career-connections-center/get-ready/graduate-school/."
+]
+
+},
+{       "tag": "Diversity Inclusion",
+"patterns": [
+  "What initiatives does Clark University undertake to foster diversity and inclusion in its graduate programs?",
+  "Can you provide information about the efforts made by Clark University to promote diversity and inclusion among graduate students?",
+  "How does Clark University create an inclusive environment within its graduate programs and campus?"
+],
+"responses": [
+  "We are dedicated to ensuring that all students feel safe and comfortable as a part of our community. To learn more about Diversity & Inclusion at Clark, visit our website: https://www.clarku.edu/who-we-are/diversity-and-inclusion/"
+]
+
+},
+{       "tag": "housing offcampus",
+"patterns": [
+  "What options are available for graduate student housing, both on and off-campus?",
+  "Can you provide information about graduate student housing options, both on-campus and off-campus?",
+  "Where can graduate students find housing options, both on and off-campus?",
+  "How does Clark University support graduate students in finding housing, both on-campus and off-campus?"
+],
+"responses": [
+  "You can visit our housing page to see housing options: https://www.clarku.edu/offices/housing/on-campus-housing/graduate-housing/"
+]
+
+},
+{       "tag": "research funding",
+"patterns": [
+  "How does Clark University support graduate students in securing funding for their research projects or scholarly endeavors?",
+  "What resources are available for graduate students to secure funding for their research or scholarly projects?",
+  "Can you provide information about how Clark University assists graduate students in obtaining funding for their research endeavors?",
+  "Where can graduate students find support for funding their research or scholarly projects at Clark University?"
+],
+"responses": [
+  "If you are looking to find out more about Clark's scholarship options, please click the link below: https://www.clarku.edu/graduate-education/admissions/tuition-and-scholarships/#:~:text=School%20and%20Departmental%20Scholarships?utm_source=engagement&utm_medium=chat&utm_campaign=bot"
+]
+
+},
+
+  {       "tag": "OnCampusJobs",
+      "patterns": [
+"Where can I apply for on campus jobs?",
+"Where can I apply for on campus jobs?",
+    "Is there any platform to apply for on campus jobs?",
+    "Are there any part time jobs available at clark university?",
+    "Where can I find on campus jobs?",
+          "Is there any platform to apply for on campus jobs?",
+          "Are there any part time jobs available at clark university?",
+          "Where can I find on campus jobs?",
+          "Is there a specific website or portal for on-campus job applications?",
+    "Are there any available part-time positions for students at Clark University?",
+    "How can I access information about on-campus job openings?",
+    "On-campus job listings",
+    "How do I find part-time employment opportunities on campus?"
+      ],
+      "responses": [
+        "All the on campus jobs are posted on Handshake. Please check the posted part time on campus jobs on Handshake. "
+      ]
+    },
+       {       "tag": "CPT",
+      "patterns": [
+"When can I apply for CPT?",
+          "What are the requirements for CPT?",
+          "When can I eligible for CPT?",
+          "When can I apply for Curricular Practical Training?",
+    "What are the eligibility criteria for Curricular Practical Training?",
+    "When am I eligible to apply for Curricular Practical Training?",
+    "At what point in my academic program can I start the application process for Curricular Practical Training?",
+    "What is the timeline for applying for Curricular Practical Training?",
+    "How soon can I begin the application procedure for Curricular Practical Training?"
+      ],
+      "responses": [
+        "Students must complete two full-time semesters (does not include summer) in the United States before they qualify for CPT. Exceptions to the one academic year requirement are provided for students enrolled in graduate studies that require immediate participation in curricular practical training. "
+      ]
+    },
+  
+      {       "tag": "Transport",
+      "patterns": [
+"Is there any transportation available for clark university students?",
+"What transportation services does Clark University provide for its students?",
+    "Are there any shuttle services available for Clark University students?",
+    "How do students at Clark University access transportation services?"
+      ],
+      "responses": [
+        "ClarkRIDE is an on call, safe-ride program for students, faculty, and staff who need transportation to and from destinations within a one-mile radius of campus."
+      ]
+    },
+        {       "tag": "Isso",
+      "patterns": [
+"Can I get mail id of Isso office?",
+          "I am international student, I have some queries related to immigration to whom I can contact?",
+          "How can I contact the ISSO office at Clark University?",
+    "What is the email address for the ISSO office at Clark University?",
+    "Where can I find contact information for the International Students and Scholars Office (ISSO) at Clark University?"
+      ],
+      "responses": [
+        "isso@clarku.edu"
+      ]
+    },
+       {       "tag": "Admission",
+      "patterns": [
+"Can I get mail id of admissions office?",
+          "I have some queries related to admissions to whom I can contact?",
+          "How can I contact the admissions office at Clark University?",
+    "What is the email address for the admissions office at Clark University?",
+    "Where can I find contact information for the admissions office at Clark University?"
+      ],
+      "responses": [
+        "admissions@clarku.edu"
+      ]
+    },
+       {       "tag": "location",
+      "patterns": [
+"where is clark university located?",
+"What is the address of Clark University?",
+    "Where can I find Clark University?",
+    "What is the location of Clark University?"
+      ],
+      "responses": [
+        "950 Main St, Worcester, MA 01610."
+      ]
+    },
+      {       "tag": "OPT",
+      "patterns": [
+"When can I apply for OPT?",
+          "When can I eligible for OPT?",
+          "What is the timeline to apply for OPT?",
+    "When should I start the OPT application process?",
+    "At what point can I begin the OPT application?"
+      ],
+      "responses": [
+        "You can apply for Optional Practical Training (OPT) up to 90 days before completing your degree program and up to 60 days after completing your degree program. It's recommended to apply as early as possible within this timeframe to allow for processing delay "
+      ]
+    }
+  
+      
+  ]
+}

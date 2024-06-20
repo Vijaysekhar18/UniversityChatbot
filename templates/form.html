@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            background-image: url("/static/images/ClarkBackground.jpeg"); /* Background image */
+            background-size: cover; /* Ensure the background image covers the entire body */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ensure the body takes up the full viewport height */
+        }
+        form {
+            max-width: 400px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            width: calc(100% - 20px); /* Adjust width to account for padding */
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: #FF5349; /* Red color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #FF5349; /* Darker red on hover */
+        }
+        .error {
+            color: #FF5349; /* Red color */
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form id="contactForm" action="/chatbot" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="confirmEmail">Confirm Email:</label>
+        <input type="email" id="confirmEmail" name="confirmEmail" required>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 123-456-7890" required>
+        <div id="emailError" class="error"></div>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            const email = document.getElementById('email').value.trim();
+            const confirmEmail = document.getElementById('confirmEmail').value.trim();
+            const emailError = document.getElementById('emailError');
+
+            // Check if emails match and have correct domain
+            if (email !== confirmEmail) {
+                emailError.textContent = 'Emails do not match.';
+                event.preventDefault(); // Prevent form submission
+            } else if (!email.endsWith('@clarku.edu')) {
+                emailError.textContent = 'Your Email does not match our records.';
+                event.preventDefault(); // Prevent form submission
+            } else {
+                emailError.textContent = ''; // Clear any previous error message
+            }
+        });
+    </script>
+</body>
+</html>
